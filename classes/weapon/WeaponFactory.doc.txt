@@ -1,0 +1,18 @@
+<- WeaponFactory ----------------------------------------------------------------------
+WeaponFactory Class
+
+Inherits  ItemFactory;
+
+Contains: 
+array of weapons that can be produced: an array;
+
+Set: 
+without parameters;
+
+Example:
+$armory = new WeaponFactory(); 
+
+Contains methods: 
+absorb (Weapon $weapon) - writes possible weapons to the array for production;
+Weapon fabricate(string $weapon_type) - creates, returns a Weapon object, or NULL 
+---------------------------------------------------------------------- WeaponFactory ->

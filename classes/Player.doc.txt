@@ -1,0 +1,14 @@
+<- Player ----------------------------------------------------------------------
+Player Class
+
+Constructor args:
+['name' => string,		//username from session
+ 'position' => int]		//int number 1 or 2
+
+Example:
+$laser = new Player(['name'=>'Emperor', 'position'=>1]);
+
+Methods:
+getUserName();
+getUserColor() - returns Color;
+---------------------------------------------------------------------- Player ->

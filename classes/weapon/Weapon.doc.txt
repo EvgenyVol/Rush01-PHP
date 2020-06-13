@@ -1,0 +1,17 @@
+
+<- Weapon ----------------------------------------------------------------------
+Weapon Class
+
+Contains: 
+name (tool Name): string;
+
+Set: 
+Mandatory parameter 'name' // not implemented  
+
+Example: 
+$laser = new Weapon('Side laser batteries');
+
+Contains methods: 
+setName (string $name); / / Should we make private? which make it not be possible to change 
+string getName () - returns the name of the weapon;
+---------------------------------------------------------------------- Weapon ->

@@ -1,0 +1,18 @@
+<- ShipFactory ----------------------------------------------------------------------
+ShipFactory Class
+
+Inherits ItemFactory;
+
+Contains:
+array of ships that can be produced: an array;
+
+Set:
+without parameters;
+
+Example:
+$shipyard = new ShipFactory();
+
+Contains methods:
+absorb (Ship $ship) - writes to the array possible ships for production;
+Ship fabricate(string $ship_type) - creates, returns a Ship object, or NULL 
+---------------------------------------------------------------------- ShipFactory ->

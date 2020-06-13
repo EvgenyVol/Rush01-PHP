@@ -1,0 +1,21 @@
+<- ItemFactory ----------------------------------------------------------------------
+ItemFactory Class
+
+Basic class
+
+Contains:
+
+An array of elemets which it can produce:
+
+Set: 
+without parameters;
+
+An Example:
+
+$leFabric = new ItemFactory();
+
+Have methods:
+
+absorb(ClassName $item, string 'ClassName') - writes to an array possible objects for production
+ClassName fabricate(string $item_type) - creates, returns an object or NULL
+---------------------------------------------------------------------- ItemFactory ->

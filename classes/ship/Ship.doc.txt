@@ -1,0 +1,30 @@
+<- Ship ----------------------------------------------------------------------
+Ship Class
+
+Contains:
+name (Ship's name) : string;
+weapon  : class Weapon;
+
+Set:
+obligatory parameter 'name' // for now there is no check for parametrs
+
+An example:
+$honor = new Ship('Honorable Duty');
+
+Have methods:
+setName(string $name); // Should we make it private, so that will not be possible to change
+string getName() - returns ship's name 
+setWeapon(Weapon $weapon) - set weapon;
+Weapon getWeapon() - returns on weapons object;
+
+public function setCoord_x($coord_x); sets the tail coordinate Х
+public function setCoord_y($coord_y); sets the tail coordinate У
+public function getCoord_x();         returns the tail coordinate Х
+public function getCoord_y();         returns the tail coordinate У
+public function doMove();             moves a ship in the field (a coorfinate of tail's square)
+public function doRotate($ungle);     turns the ship clockwise or counterclockwise
+public function setUngle($ungle);     sets the rotation angle to 90 or -90
+public function getUngle();           getting the rotation angle
+public function setOrientation($orient); setting the ship's orientation (from tail to bow) (left, right, up, down)
+public function getOrientation();        returns the ship  the orientation 
+---------------------------------------------------------------------- Ship ->
