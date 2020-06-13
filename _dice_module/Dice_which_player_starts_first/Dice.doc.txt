@@ -1,0 +1,5 @@
+<- Dice ----------------------------------------------------------------------
+The Dice class handles the quantity of the steps. Class has some methods
+get_face_value, roll. The roll provides a random number between 1 to 6. 
+The next method get_face_value shows the actual number of the steps.
+---------------------------------------------------------------------- Dice ->
